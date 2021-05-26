@@ -12,3 +12,4 @@ class App extends React.Component {
   }
 }
 ReactDOM.render(<App />, document.getElementById('root'))
+// https://www.taniarascia.com/getting-started-with-react/
