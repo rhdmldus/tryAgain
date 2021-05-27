@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+table {margin:20px;border-collapse:collapse;font-size:20px;}
+table th{text-align: left;background-color:cornsilk;}
+table td{width:50%;}
+table *{padding:5px;}
+table tr:nth-child(odd){background-color:bisque;}
+table tr:nth-child(even){background-color:cornsilk;}
+/* table *tr {border-bottom:1px solid #eee;} */
