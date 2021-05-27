@@ -11,10 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-table {margin:20px;border-collapse:collapse;font-size:20px;}
+table {margin:20px;width:400px;border-collapse:collapse;font-size:20px;}
 table th{text-align: left;background-color:cornsilk;}
-table td{width:50%;}
-table *{padding:5px;}
+table td:nth-child(1){width:100px;}
+table td:nth-child(2){width:200px;}
+table td:nth-child(3){width:100px;}
+table td button{width:80px;background:crimson;color:#fff;border:none;border-radius:3px;}
+table *{padding:10px;}
 table tr:nth-child(odd){background-color:bisque;}
 table tr:nth-child(even){background-color:cornsilk;}
 /* table *tr {border-bottom:1px solid #eee;} */
